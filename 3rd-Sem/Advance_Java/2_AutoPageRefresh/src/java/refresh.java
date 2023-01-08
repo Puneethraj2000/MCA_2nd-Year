@@ -75,6 +75,7 @@ public class refresh extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
+        response.setIntHeader("refresh",1);
         processRequest(request, response);
     }
 
