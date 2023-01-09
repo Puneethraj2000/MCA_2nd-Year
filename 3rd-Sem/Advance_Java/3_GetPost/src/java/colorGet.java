@@ -38,7 +38,7 @@ public class colorGet extends HttpServlet {
             out.println("<title>Servlet colorGet</title>");            
             out.println("</head>");
 out.println("<body style='background-color:" +value +"'>");
-        out.println("<center><h2>The Selected color is:</h2></center>"+value);
+        out.println("<center><h2>The Selected color is:"+value+"</h2></center>");
             out.println("<h1>Servlet colorGet at " + request.getContextPath() + "</h1>");
             out.println("</body>");
             out.println("</html>");
