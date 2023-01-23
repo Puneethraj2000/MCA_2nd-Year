@@ -16,7 +16,7 @@
             <table>
                 <tr>
                     <td>Enter Name:</td>
-                    <td><input type="text" name="user"</td>
+                    <td><input type="text" name="user"></td>
                 </tr>
                 <tr>
                     <td>Enter your Password:</td>
