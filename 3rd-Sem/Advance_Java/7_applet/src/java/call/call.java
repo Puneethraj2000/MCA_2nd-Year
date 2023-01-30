@@ -27,7 +27,7 @@ public class call extends Applet{
     @Override
     public void paint(Graphics g){
         g.drawLine(300, 300, 200, 10);
-        g.drawLine(x - r, y - r, 100, 100);
+        g.drawOval(x - r, y - r, 100, 100);
         g.drawRect(400, 50, 200, 100);
         g.drawString("HelloWorld!", 50, 25);
     }
