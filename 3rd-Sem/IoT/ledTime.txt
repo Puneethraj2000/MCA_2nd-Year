@@ -1,2 +1,0 @@
-ON_TIME=1
-OFF_TIME=1
