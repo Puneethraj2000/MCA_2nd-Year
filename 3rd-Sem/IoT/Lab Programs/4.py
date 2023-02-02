@@ -1,4 +1,4 @@
-#Switch on a relay at a given time using cron, where the relay's contact terminals are connected 
+#4. Switch on a relay at a given time using cron, where the relay's contact terminals are connected 
 #to a load.
 
 import RPi.GPIO as gpio
