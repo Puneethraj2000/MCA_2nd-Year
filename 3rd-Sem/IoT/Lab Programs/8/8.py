@@ -1,3 +1,5 @@
+#Get the status of bulb at a remote place (on the LAN)
+
 import RPi.GPIO as gpio 
 import time
 from flask import Flask,render_template
