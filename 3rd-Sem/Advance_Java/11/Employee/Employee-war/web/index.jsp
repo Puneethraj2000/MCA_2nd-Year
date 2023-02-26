@@ -25,10 +25,10 @@
                 </tr>
                 <tr>
                     <b>select your choice:</b><br><br>
-                    <input type="radio" name="group" value="add"/>Addition<br></td>                </tr>
-                    <input type="radio" name="group" value="sub"/>Subtraction<br></td>                </tr>
-                    <input type="radio" name="group" value="mul"/>Multiplication<br></td>                </tr>
-                    <input type="radio" name="group" value="div"/>Division<br></td>                </tr>
+                    <input type="radio" name="group" value="add"/>Addition<br></td></tr>
+                    <input type="radio" name="group" value="sub"/>Subtraction<br></td></tr>
+                    <input type="radio" name="group" value="mul"/>Multiplication<br></td></tr>
+                    <input type="radio" name="group" value="div"/>Division<br></td></tr>
                     <tr>
                         <td><input type="submit" value="Submit"</td>
                         <td><input type="reset" value="clear"/></td>
