@@ -29,12 +29,9 @@ public class index {
             System.out.println("Inside try after getconnection");
             st = con.createStatement();
         }
-        catch(ClassNotFoundException e1)
+        catch(ClassNotFoundException | SQLException e)
         {
-            System.out.println("Error"+e1.getMessage());
-        }
-        catch(SQLException e2){
-            System.out.println(e2.getMessage());
+            System.out.println("Error"+e.getMessage());
         }
     }
 
