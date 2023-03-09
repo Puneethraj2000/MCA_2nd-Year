@@ -1,3 +1,5 @@
+//Control a light source using web page.
+
 import RPi.GPIO as GPIO
 import time
 import datetime
