@@ -18,7 +18,7 @@ try:
 		while True:
 			data=s.recv(1024).decode('utf-8')
 			print(data)
-			if(str(data)=='Alert'):
+			if(str(data)=='alert'):
 				print("Alert! Gas Leakage detected...")
 				GPIO.output(Buzzer,True)
 				time.sleep(3)
