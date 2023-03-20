@@ -1,4 +1,4 @@
-#Area of given shapes (Rectangle, Triangle and Shape) reading shape and appropriate values from standard input
+#Area of given shapes (Rectangle, Triangle and Circle) reading shape and appropriate values from standard input
 
 def rect():
 	l = float(input("Enter length:"))
