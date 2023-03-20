@@ -26,3 +26,9 @@ except KeyboardInterrupt:
 	gpio.cleanup()
 	print("End of the program")
 
+
+	
+	
+#sudo crontab -e
+#<min> <hour> * * * sudo python <program path in quotes>
+#press ctrl + o, enter, ctrl + x
