@@ -1,3 +1,5 @@
+<!--9. Write a JSP program to implement all the attributes of page directive tag.-->
+
 <%-- 
     Document   : home.jsp
     Created on : 17 Jan, 2023, 2:12:01 PM
