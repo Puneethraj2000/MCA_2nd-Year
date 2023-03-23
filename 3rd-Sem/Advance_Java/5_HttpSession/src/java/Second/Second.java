@@ -44,6 +44,7 @@ public class Second extends HttpServlet {
             else
             {
                 RequestDispatcher rd = request.getRequestDispatcher("index.html");
+                rd.include(request, response);
             }
         }
         finally
